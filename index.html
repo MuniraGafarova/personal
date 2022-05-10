@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navigation">
+        <div class="banner">
+            <img src="123.jpg" alt="" class="cover">
+        </div>
+        <div class="navLink">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+   <section class="sec">
+       <header>
+           <div class="toggle"></div>
+           <a href="#" class="btn">Hire me</a>
+       </header>
+
+       <div class="imgBx">
+           <img src="789.jpg" alt="" class="cover">
+       </div>
+       <div class="content">
+           <h2>Hi, I am <br><span>Munira Gafforova</span></h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores sed, repudiandae praesentium excepturi hic sint modi at provident suscipit officia vero possimus dignissimos explicabo!
+             At, pariatur beatae eos illum dolores qui vel atque cumque blanditiis cum deleniti! Laborum, quae omnis.</p>
+             <a href="#" class="btn">Download My CV</a>
+       </div>
+
+       <footer>
+           <ul class="sci">
+               <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+               <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+           </ul>
+           <p class="copyrightText">2022 About Myself</p>
+       </footer>
+   </section>
+
+   <script>
+       let menuToggle = document.querySelector('.toggle');
+       let navigation = document.querySelector('.navigation')
+       let sec = document.querySelector('.sec')
+       menuToggle.onclick = function(){
+           menuToggle.classList.toggle('active');
+           navigation.classList.toggle('active');
+           sec.classList.toggle('active');
+       }
+   </script>
+</body>
+</html>
+
+<!-- <i class="fab fa-instagram"></i>
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-twitter"></i> -->
+
+<!-- https://kazanfirst.ru/storage/post/October2017/UHZ41BjlrpIwwoWI1u0x.jpg
+https://avatars.mds.yandex.net/get-zen_doc/3892121/pub_603ceb4aa3c2fb477453ad3f_603cecbd6bbac837cdc6c149/scale_1200 -->
